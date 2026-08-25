@@ -1,0 +1,29 @@
+{
+  "name": "stock-management-system-backend",
+  "version": "1.0.0",
+  "description": "REST API backend for the Stock Management System inventory platform.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+  "start": "node --env-file=.env index.js",
+    "dev": "nodemon --env-file=.env index.js"
+  },
+  "keywords": [],
+  "author": "Stock Management System",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^1.21.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.2",
+    "multer": "^2.1.1",
+    "path": "^0.12.7",
+    "pdfkit": "^0.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
